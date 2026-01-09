@@ -1,8 +1,10 @@
 
 body {
     font-family: Roboto, 'Open Sans', sans-serif;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+    padding: 0;
+    margin: 0;
 }
 
 .header, .block-1, .footer {
@@ -63,7 +65,7 @@ button {
     display: flex;
     align-items: center;
     /* justify-content: center; */
-    padding: 50px;
+    padding: 75px;
     gap: 25px;
 }
 
@@ -102,9 +104,15 @@ button {
 }
 
 .info img {
-    max-width: 150px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
     font-size: 18px;
     font-weight: 100;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .block-3 {
@@ -141,6 +149,11 @@ button {
     padding-right: 50px;
     padding-top: 25px;
     padding-bottom: 25px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
 }
 
 .block-4 .sign-up {
